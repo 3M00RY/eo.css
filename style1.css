@@ -212,6 +212,19 @@ div:has(> .ab-header) > * {
   width: calc(100% - 48px);
   margin: 10px auto;
 }
+.default_header {
+  position: relative;
+  z-index: 1;
+  background: var(--hd-bg, #fff);
+  color: var(--hd-text, #212a2f);
+  border-radius: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 1400px;
+  width: calc(100% - 48px);
+  margin: 10px auto;
+}
+
 .ab-header.ab-hidden {
   transform: translateY(calc(-100% - 50px));
 }
