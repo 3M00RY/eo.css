@@ -22,6 +22,11 @@
   --checkout-form-bg: #f5f4f2;
   --checkout-heading-text: #212a2f;
 }
+
+.default_header_top_text {
+  background-color: #ff0000;
+}
+
 @keyframes ab-fadeUp {
   0% {
     opacity: 0;
