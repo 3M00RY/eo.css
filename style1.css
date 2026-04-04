@@ -215,7 +215,7 @@ div:has(> .ab-header) > * {
 .default_header {
   position: relative;
   z-index: 1;
-  background: var(--hd-bg, #fff);
+  background: var(--hd-bg, #fff) !important;
   color: var(--hd-text, #212a2f);
   border-radius: 20px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
@@ -223,12 +223,12 @@ div:has(> .ab-header) > * {
   max-width: 1400px;
   width: calc(100% - 48px);
   margin: 10px auto;
-  padding-bottom: -1rem;
+  padding-bottom: -1rem !important;
 }
 @media (min-width: 768px) {
     .default_header {
-        padding-top: -1.5rem;
-        padding-bottom: -1.5rem;
+        padding-top: -1.5rem !important;
+        padding-bottom: -1.5rem !important;
     }
 }
 .ab-header.ab-hidden {
