@@ -222,6 +222,7 @@ div:has(> .ab-header) > * {
   transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   max-width: 1400px;
   width: calc(100% - 48px);
+  height: 10px;
   margin: 10px auto;
   padding-bottom: -2rem !important;
 }
