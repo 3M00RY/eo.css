@@ -223,12 +223,12 @@ div:has(> .ab-header) > * {
   max-width: 1400px;
   width: calc(100% - 48px);
   margin: 10px auto;
-  padding-bottom: -1rem !important;
+  padding-bottom: -2rem !important;
 }
 @media (min-width: 768px) {
     .default_header {
-        padding-top: -1.5rem !important;
-        padding-bottom: -1.5rem !important;
+        padding-top: -3rem !important;
+        padding-bottom: -3rem !important;
     }
 }
 .ab-header.ab-hidden {
