@@ -23,6 +23,7 @@
   --checkout-heading-text: #212a2f;
 }
 
+
 @keyframes ab-fadeUp {
   0% {
     opacity: 0;
@@ -3956,3 +3957,8 @@ a.ab-footer-contact-item:hover {
     font-size: 1rem;
   }
 }
+.header {
+  height: 100px;
+}
+
+
