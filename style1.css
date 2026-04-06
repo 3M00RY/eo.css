@@ -3957,8 +3957,8 @@ a.ab-footer-contact-item:hover {
     font-size: 1rem;
   }
 }
-.header {
-  height: 100px;
+header {
+  height: 200px;
 }
 
 
